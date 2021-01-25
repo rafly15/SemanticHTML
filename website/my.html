@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="my.css" rel="stylesheet" type="text/css" />
+    <title>Rafly's Blog</title>
+    <style>
+        body {
+            background-image: url("back.jpg");
+            background-size: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header>
+            <h1>Belajar Dunia Web</h1>
+        </header>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">FAQ</a> |
+            <a href="#">Contact </a>
+        </nav>
+
+        <main>
+            <article>
+                <section id="article1">
+                    <h2>Materi</h2>
+                    <div class="t_images">
+                        <div class="judul">HMTL<br>
+                            <img src="111.png" height="90px" width="100px" />
+                        </div>
+                        <strong><center><a href="https://www.dicoding.com/academies/123" target="_blank">DICODING</a></strong>
+                    </div>
+                </section>
+                <section id="article2">
+                    <div class="t_images">
+                        <div class="judul">CSS<br>
+                            <img src="download (4).png" height="90px" width="100px" />
+                        </div>
+                        <strong><center><a href="https://www.dicoding.com/academies/163" target="_blank">DICODING</a></strong>
+                    </div>
+                </section>
+                <section id="article3">
+                    <div class="t_images">
+                        <div class="judul">SQL<br>
+                            <img src="download.png" height="90px" width="100px" />
+                        </div>
+                        <strong><center><a href="https://www.dicoding.com/academies/74" target="_blank">DICODING</a></strong>
+                    </div>
+                </section>
+                <section id="article4">
+                    <div class="t_images">
+                        <div class="judul">NODE JS<br>
+                            <img src="download (3).png" height="90px" width="100px" />
+                        </div>
+                        <strong><center><a href="https://www.dicoding.com/academies/219" target="_blank">DICODING</a></strong>
+                    </div>
+                </section>
+            </article>
+
+            <aside>
+
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Social Media</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="https://raflyputrapramuda.blogspot.com/">Blog</a>
+                        <a href="https://linkedin.com/in/rflyprmdy">Linkedin</a>
+                        <a href="https://www.instagram.com/rflyprmdy/">Instagram</a>
+                    </div>
+                </div>
+                <script>
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+
+
+                    window.onclick = function(event) {
+                        if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                            }
+                        }
+                    }
+                </script>
+
+                <br>
+                <br>
+                <div class="bio">Biodata<br>
+                    <br>
+                    <img src="abiii.jpg" height="175px" weight="200px" />
+                    <br>
+                    <h1 style="color:white; font-size: medium;">Rafly Pramudya </h1>
+
+                    <h1 style="color:white; font-size: medium;">Universitas Gunadarma</h1>
+                </div>
+            </aside>
+        </main>
+
+        <footer>
+            RAFLY PRAMUDYA PUTRA 2020
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

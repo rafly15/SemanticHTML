@@ -1,0 +1,167 @@
+body {
+    background-color: #515151;
+}
+
+#wrapper {
+    background-color: #333;
+    float: inherit;
+    width: 900px;
+    position: relative;
+    margin: 0 auto 0 auto;
+    color: #f0f0f0;
+}
+
+header {
+    float: left;
+    width: 875px;
+    height: 70px;
+    background-color: #FC0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    padding: 50px 0 5px 25px;
+    color: #333;
+}
+
+nav {
+    float: left;
+    width: 875px;
+    height: 30px;
+    background-color: #333;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FC0;
+    padding: 17px 0 3px 25px;
+}
+
+article {
+    float: left;
+    width: 650px;
+    background-color: #FC0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #CCC;
+    padding: 25px 25px 5px 25px;
+}
+
+aside {
+    float: left;
+    width: 170px;
+    background-color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    padding: 25px 25px 5px 5px;
+    line-height: 16px;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #FC0;
+    padding: 10px 10px 10px 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.t_images {
+    float: left;
+    width: 155px;
+    border: 1px solid black;
+    margin: 0 15px 25px 15px;
+    padding: 5px;
+}
+
+.judul {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+strong a {
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    color: #666;
+}
+
+nav a {
+    color: #919191;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #919191;
+    text-decoration: underline;
+}
+
+a {
+    color: #FC0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    border: #FC0;
+    float: left;
+    width: 875px;
+    height: 70px;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    padding: 50px 0 5px 25px;
+    color: #FC0;
+}
